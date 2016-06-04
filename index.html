@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Derrick Suarez :: Giphy API</title>
+    <!-- RESET.CSS -->
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- PERSONAL STYLES -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="page-wrap">
+        <div class="row">
+            <div class="jumbotron text-center">
+                <div class="container">
+                    <h1>Welcome to GetGiphy!</h1>
+                    <p>Click on any one of the buttons below to see an assortment of Gifs associated with that button, or type in your own search query to generate your own GetGiphy button!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row button-row">
+            <div class="buttons col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+            </div>
+        </div>
+        <div class="row content-row">
+            <div class="gifs-display col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            </div>
+            <div class="add-button-form col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                <h2>Add your own!</h2>
+                <form role="form">
+                    <div class="form-group">
+                        <label for="name">Enter a rocker's name:</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <button type="submit" class="add-rocker-btn btn btn-success">Submit</button>
+                </form>
+                <a href="http://giphy.com/" target="_blank">
+                    <img src="assets/img/Giphy_Attribution_Marks/Animated_Logos/PoweredBy_200_Horizontal_Light-Backgrounds_With_Logo.gif" alt="Giphy Logo" id="logo">
+                </a>
+            </div>
+        </div>
+        <div class="push"></div>
+    </div>
+    <footer class="site-footer">
+        <h4 class="footer-text text-center">&copy; Derrick Suarez 2016</h4>
+    </footer>
+</body>
+<!-- JQUERY -->
+<script src="http://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+<!-- PERSONAL JS -->
+<script src="assets/js/main.js"></script>
+
+</html>
