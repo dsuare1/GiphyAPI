@@ -91,10 +91,16 @@ html, body {
 /********************************************/
 /* FOOTER */
 /********************************************/
-footer, .push {
+
+.site-footer, .page-wrap:after {
 	height: 100px;
 	background-color: #34495e;
 }
+
+/*footer, .push {
+	height: 100px;
+	background-color: #34495e;
+}*/
 
 .footer-text {
 	color: #e4ebf0;
